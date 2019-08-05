@@ -1,0 +1,536 @@
+body{background:#fff;}
+
+@media (max-width:756px){
+    .page_lg {
+        display: none;
+    }
+    .page_sm {
+        display: block;
+    }
+}
+@media (min-width:757px){
+    .page_lg {
+        display: block;
+    }
+    .page_sm {
+        display: none;
+    }
+}
+
+.min_width{
+    width: 1042px;
+    margin: 0 auto;
+}
+
+.page_lg .header{
+    width: 1042px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+.page_lg .header .logo{
+    float: left;
+    margin-top: 10px;
+}
+
+.page_lg .header .right{
+    float: right;
+    margin-top: 20px;
+    color: #333
+    font-size: 15px;
+}
+
+.page_lg .header .right div{
+    display: inline-block;
+    line-height: 90px;
+}
+.page_lg .header .right .host_line{
+    color: #000;
+    font-size: 16px;
+}
+.page_lg .header .right .tell_phone{
+    color: #ff7f00;
+    font-size: 24px;
+    margin: 0 5px;
+    line-height: 24px;
+    vertical-align: -3px;
+}
+.page_lg .header .right i{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+.page_lg .header .right i img {
+    display: block;
+    width: 100%;
+}
+.page_lg .header .right .time{
+    color: #999;
+}
+
+/* banner */
+.page_lg .banner {
+    position: relative;
+    min-width: 1042px;
+}
+.page_lg .banner .banner_bg img{
+    display: block;
+    width: 100%;
+}
+.page_lg .banner .download_pic {
+    position: absolute;
+    top: 43.4%;
+    left: 23.5%;
+    padding: 3.7% 3.7%;
+    color: #fff;
+    font-size: 12px;
+}
+.page_lg .banner .download_pic .pic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.page_lg .banner .download_pic .pic img{
+    width: 100%;
+    /*margin-bottom: 6px;*/
+}
+/* banner  end */
+.page_lg .section {
+    width: 1042px;
+    margin: 0 auto;
+}
+.page_lg .section .title{
+    margin-top: 60px;
+    text-align: center
+}
+.page_lg .section .title h3{
+    font-size: 28px;
+}
+.page_lg .section .title p{
+    font-size: 17px;
+    color: #999;
+    margin-top: 7px;
+}
+.page_lg .section ul {
+    margin-top: 52px;
+    font-size: 0;
+    padding-bottom: 53px;
+}
+.page_lg .section ul li{
+    display: inline-block;
+    width: 25%;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+}
+.page_lg .section ul li img{
+    display:inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.page_lg .section ul li div{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.page_lg .section ul li h3{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #777
+}
+.page_lg .section ul li p{
+    font-size: 24px;
+    color: #333;
+    margin-top: 5px;
+}
+.page_lg .section2{
+    background: #ffefe7;
+    padding-top:68px; 
+    padding-bottom: 50px;
+    text-align: center;
+}
+.page_lg .section2 .title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.page_lg .section2 .title h3{
+    font-size: 28px;
+    color: #000;
+}
+.page_lg .section2 .title p{
+    font-size: 17px;
+    color: #999;
+    margin-top: 14px;
+}
+.page_lg .section2 .apply_line{
+    display: flex;
+    justify-content: space-between;
+}
+.page_lg .section2 .apply_line li{
+    width: 228px;
+    padding-top: 50px;
+    padding-bottom: 66px; 
+    background: #fff;
+}
+.page_lg .section2 .apply_line li p{
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+}
+.page_lg .section2 .txt_bg{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 148px;
+}
+.page_lg .section2 .txt_bg img{
+    display: block;
+}
+.page_lg .section2 .txt_bg .content{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 450px;
+    font-size: 14px;
+    text-align:left;
+    margin-top: 70px; 
+}
+.page_lg .section2 .txt_bg .content .txt_title{
+    font-size: 24px;
+    color: #333;
+}
+.page_lg .section2 .txt_bg .content .txt_title::before{
+    content: "";
+    display: inline-block;
+    height: 24px;
+    width: 7px;
+    vertical-align: middle;
+    margin-top:-3px;
+    margin-right: 5px;
+    margin: -3px 5px 0 10px; 
+    background: url(../img/pc/xiantiao.png) no-repeat;
+}
+.page_lg .section2 .txt_bg .content .txt{
+    margin-top: 40px;
+    line-height: 30px;
+    letter-spacing: 1px; 
+    text-indent: 30px;
+    font-size: 14px;
+}
+
+
+/* 底部 */
+.page_lg .footer {
+    padding-top: 50px;
+    background: #2b2a24;
+}
+
+.page_lg .footer .top {
+    width: 1042px;
+    padding-bottom: 59px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.page_lg .footer .customer_service {
+    font-size: 16px;
+    display: inline-block;
+    color: #c6c6c6;
+    text-align: center;
+}
+.page_lg .footer .contact_area {
+    /* float: left; */
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: center;
+}
+.page_lg .footer .contact_area i {
+    display: inline-block;
+    vertical-align: middle;
+}
+.page_lg .footer .contact_area .time{
+    line-height: 26px;
+}
+.page_lg .footer .contact_area .tell_phone{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    /* margin-top:5px; */
+    /* margin-bottom: 15px;  */
+}
+.page_lg .footer .contact_area .tell_phone a{
+    font-size: 34px;
+    color: #fff;
+}
+/* .page_lg .footer .contact_area .tell_phone a::before{
+    content: "";
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: url(../img/pc/dianhua.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px; 
+} */
+.page_lg .footer .contact_area .we_chat span{
+    font-size: 20px;
+    color: #1c1f21;
+    margin-left: 10px;
+}
+.page_lg .footer .wechat{
+    float: left;
+    font-size: 16px;
+    color: #c6c6c6;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.page_lg .footer .wechat .wechat_number{
+    font-size: 20px;
+    color: #fff;
+}
+.page_lg .footer .pic_we_char{
+    float: right;
+    text-align: center;
+}
+.page_lg .footer .pic_we_char p{
+    font-size: 16px;
+    color: #c6c6c6;
+    margin-bottom: 10px;
+}
+.page_lg .footer .pic_we_char div{
+    width: 120px;
+    display: inline-block;
+    
+}
+.page_lg .footer .pic_we_char div:first-child{
+    margin-right: 10px;
+}
+.page_lg .footer .pic_we_char div img {
+    display: block;
+    width: 100%;
+}
+.page_lg .footer .bottom {
+    padding: 14px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #3b3a31;
+}
+/* 底部  end*/
+/* pc端 end */
+
+/* 移动端 */
+.page_sm header{
+    padding: 6px 10px;
+    overflow: hidden;
+}
+.page_sm header .logo{
+    float: left;
+    width: 100px;
+}
+.page_sm header .logo img{
+    display: block;
+    width: 100%;
+}
+.page_sm header .tell_phone{
+    float: right;
+    padding-top: 4px;
+}
+.page_sm header .tell_phone i {
+    display: inline-block;
+    width: 18px;
+    vertical-align: middle;
+}
+.page_sm header .tell_phone i img{
+    width: 100%;
+}
+.page_sm header .tell_phone a {
+    color: #ff7f00;
+}
+.page_sm .banner img{
+    width: 100%;
+}
+.page_sm .downl_title .title{
+    margin-top: 30px;
+    text-align: center;
+}
+.page_sm .downl_title h3{
+    font-size: 20px;
+    color: #4b5460;
+    font-weight: inherit;
+}
+.page_sm .downl_title p{
+    margin-top: 5px;
+    font-size: 12px;
+    color: #bfbfbf;
+}
+.page_sm .downl_area{
+    text-align: center;
+    margin-top: 30px;
+}
+.page_sm .downl_area a{
+    display: inline-block;
+    width: 40%;
+    margin: 0 auto;
+}
+.page_sm .downl_area a img {
+    display: block;
+    width: 100%;
+}
+.page_sm .downl_area a:first-child{
+    margin-right: 2%;
+}
+
+.page_sm section .title{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 58px;
+    text-align: center;
+}
+.page_sm section .title h3{
+    font-size: 18px;
+    color: #4b5460;
+    font-weight: inherit;
+}
+.page_sm section .title p{
+    font-size: 12px;
+    color: #bfbfbf;
+}
+.page_sm section .title .title_line{
+    display: flex;
+}
+.page_sm section .title .title_line div{
+    width: 100px;
+}
+.page_sm section .title .title_line::before{
+    content: "";
+    display: inline-block;
+    height: 40px;
+    flex: 1;
+    background: url(../img/yd/zuo@2x.png) no-repeat;
+    background-size: 100% auto;
+    background-position: 0 center;  
+}
+.page_sm section .title .title_line::after{
+    content: "";
+    display: inline-block;
+    height: 40px;
+    flex: 1;
+    background: url(../img/yd/you@2x.png) no-repeat;
+    background-size: 100% auto;
+    background-position: 0 center; 
+}
+.page_sm section .apply_line{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 45px;
+    padding: 0 8px;
+}
+.page_sm section .apply_line li{
+    width: 25%;
+    text-align: center;
+}
+.page_sm section .apply_line li img{
+    width: 47.77%;
+}
+.page_sm section .apply_line li p{
+    margin-top: 25px;
+    font-size: 13px;
+    color: #333;
+}
+.page_sm section .title img{
+    width: 185px;
+}
+.page_sm section .scene{
+    margin-top: 26px;
+    padding: 0 34.5px;
+}
+
+.page_sm section .scene img{
+    display: block;
+    width: 100%;
+}
+
+.page_sm section .txt{
+    font-size: 15px;
+    padding: 0 20px;
+    margin-top: 28px;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 30px;
+    color: #333;
+}
+
+.page_sm footer {
+    background: #1c1f21;
+}
+.page_sm footer .top{
+    /* display: flex; */
+    margin-top: 78px; 
+    padding: 20px 3% 15px;
+    font-size: 12px;
+    color: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid #2c2c2c;
+    text-align: center;
+    /* justify-content:space-between; */
+}
+.page_sm footer .top > div:first-child{
+    /* float: left;  */
+}
+.page_sm footer .top > div:first-child p{
+    color: #c6c6c6;
+}
+/* .page_sm footer .top > div:last-child{
+    float: right;
+    color: #c6c6c6;
+    text-align: center;
+}
+.page_sm footer .top > div:last-child img{
+    width: 80px;
+    margin-top: 8px;
+} */
+.page_sm footer .top > div .customer_service{
+    color: #c6c6c6;
+}
+.page_sm footer .top > div .customer_service i{
+    display: inline-block;
+    width: 14px;
+    vertical-align: middle;
+}
+.page_sm footer .top > div .customer_service i img{
+    width: 100%;
+}
+.page_sm footer .top > div .tell_phone{
+    margin: 2px 0 0px 0;
+}
+.page_sm footer .top > div .tell_phone a{
+    font-size: 18px;
+    color: #fff;
+}
+.page_sm footer .top > div .wechat{
+    color: #fff;
+}
+
+.page_sm footer .bottom{
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+    line-height: 35px;
+}
+
+/*底部弹框*/
+.alert_all{position:fixed;bottom:3%;width:100%;pointer-events:none;z-index:999;}
+.alert_content{box-shadow:0px 0px 15px #efefef;max-width:85%;background:rgba(0,0,0,0.6);padding:4px 10px;border-radius:5px;text-align:center;margin:0 auto;color:#fff;font-size:1rem;}
+.loading_content{width:100%;background:rgba(0,0,0,0.1);}
+/* end */
+
+/*微信提醒*/
+.prompt{width:100%;position:fixed;top:0px;left:0px;background:rgba(0,0,0,0.3);height:100%;}
+.prompt img{width:100%;}
+
+
+
+

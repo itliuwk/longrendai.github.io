@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>官网首页</title>
+    <link rel="stylesheet" href="./static/css/base.css">
+    <link rel="stylesheet" href="./static/css/initialize.css">
+    <script src="./static/js/flexible.js"></script>
+    <script>
+        try{
+            // 兼容ipad
+            /(iPad)/i.test(navigator.userAgent)&&(head=document.getElementsByTagName('head'),viewport=document.createElement('meta'),viewport.name='viewport',viewport.content='target-densitydpi=device-dpi, width=480px, user-scalable=no',head.length>0&&head[head.length-1].appendChild(viewport));
+        }catch(e){
+            console.log(1)
+        }
+        
+    </script>
+</head>
+<body>
+    <style>
+        .container{width:100%;position:relative;}
+        .container .img_ico{width:100%;position:relative;}
+        .container .qr_img{position:relative;background:#fff;width:1rem;}
+        .qr_img img{width:100%;height:50%;min-height:90px;min-width:90px;}
+        .footer_text{position:relative;top:0%;right:0%;width:100%;background:#333333;padding:1% 0;}
+        .footer_text p{width:100%;text-align:center;color:#fff;font-size:13px;}
+        img{width:100%;}
+
+        .footer_img{position:relative;width:100%;}
+
+        .footer_box p{width:100%;width:1rem;margin-top:0.05rem;}
+    </style>
+    <!-- pc端 -->
+    <div class="container">
+        <div class="img_ico">
+            <img src="./static/img/pc/logo.jpg" alt="">
+        </div>
+        <div class="img_ico">
+            <img src="./static/img/pc/h2.jpg" alt="">
+        </div>
+        <div class="img_ico">
+            <img src="./static/img/pc/product.jpg" alt="">
+        </div>
+        <div class="img_ico">
+            <img src="./static/img/pc/h4.jpg" alt="">
+            
+        </div>
+            <!-- <img src="./static/img/pc/h5.jpg" alt=""> -->
+        <div class="footer_text disp_c jus_around">
+            <div class="footer_img disp_r jus_around">
+                <div></div>
+                <div class="footer_box">
+                    <div class="qr_img disp_r jus_around">
+                        <!--<img src="./static/img/pc/qr.png" alt="">-->
+                    </div>
+                    <!--<p>扫码下载</p>-->
+                    <p></p>
+                </div>
+            </div>
+            <div style="margin-top:-0.2rem;    padding-top: 0.2rem;">
+                <p>Copyright  2019  浙ICP备19016032号-1 </p>
+                <p>浦江县亚恒信息技术有限公司</p>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
